@@ -1,4 +1,4 @@
-# Private-De-Novo-Drug-Creation
+# GENerateZ: Designing anticancer drugs using transcriptomic data, variational autoencoders, and genetic algorithmsPrivate-De-Novo-Drug-Creation
 
 We train a convolutional variational autoencoder (CVAE) to convert three different types of discrete representations (SMILES, DEEP SMILES, SELFIES) of drug-like molecules to and from a multidimensional latent space. By making use of the advanced scheduling technique proposed by Fu et al. we avoid posterior collapse, allowing highly meaningful features to be extracted from the discrete representations. Without shaping our latent, we found the distribution of molecules in the latent space a gradient by chemical properties' (SAS, QED, logP) values; molecules with high values are located in one region, and molecules with low values are in another. These properties are important criterion for pre-clinical drug discovery, and thus being able to optimize drug-like molecules for them is imperative.
 
