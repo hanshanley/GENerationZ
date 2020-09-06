@@ -10,7 +10,7 @@ We verify these novel candidate drugs by comparing them to existing compounds wi
 
 CCC1=C2C=C(C=NC2=NC3=C1ON4C3=CC5=C(C4=O)COC(=O) C5(CC)O)C
 
-<img src="https://github.com/hanshanley/Private-De-Novo-Drug-Creation/blob/master/SARCOMA_GA_IC50_SMILES_2 (1).png" width="480">
+<img src="https://github.com/hanshanley/Private-De-Novo-Drug-Creation/blob/master/SARCOMA_GA_IC50_SMILES_2 (1).png" width="240">
 
 
 Last, we train a separate Transformer decoder to map pretrained latent embeddings of molecules back to their chemical representations. We show that this separate and more powerful decoder can more effectively and easily map diverse sets of latent representations back into compounds than the original decoder in the VAE. This essentially turns our VAE into a highly efficient feature extractor and allows for more exploration of the chemical space created by the VAE. 
